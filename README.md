@@ -38,9 +38,11 @@
   `$npm i web3 fs big-number ethereumjs-tx dotenv`
   
  3. Create the package.json file using below command
+  
   `$npm init`
  
  4. To execute the Javascript file using node.js execute the below command
+  
  `node distribute.js`
  
  5. Distribute.js file will call the contract.js, .env files where we have all the details of token address, contract address, MetaMask private key value
@@ -53,6 +55,7 @@
 
 <details><summary>Code Execution using Docker</summary>
 <p>
+  
  ## Steps followed to deploy Docker
  1. Create Docker account and then download Docker app on the system.
   
@@ -67,12 +70,15 @@
  6. Create Tag "shilpiproject", by using this tag we can add multiple images to the specific repository 
   
  7. To create a Docker image run command 
+  
   `docker build . -t shilpimadan27/x21145059-blockchain:shilpiproject`
  
  8. To push the above created Docker container image in the Docker Hub using the tag run command
+  
   `docker push shilpimadan27/x21145059-blockchain:shilpiproject`
   
  9. Go to the Docker hub page under the mentioned repository and tag we will get the pull command
+  
   `docker pull shilpimadan27/x21145059-blockchain:shilpiproject`
   
  </p>
