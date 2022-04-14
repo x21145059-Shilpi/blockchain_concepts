@@ -11,8 +11,8 @@
 1. Create the Smart contract file named "ProjectERC20.sol". Modify name and symbol in ProjectERC20.sol file (Line 166)
   js
     constructor() {
-        _name = "x20246935";
-        _symbol = "DC";
+        _name = "x21145059-Student";
+        _symbol = "ETH";
         
         _mint(msg.sender, 1000000000000000000000000);
     }
